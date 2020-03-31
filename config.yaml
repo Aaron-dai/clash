@@ -36,26 +36,26 @@ secret: ''
 Proxy:
 - name: aaronhk6s
   type: vmess
-  server: hka6s.jakewood-life.com
-  port: 131
-  uuid: 20A6F78F-A2F6-DCC2-9875-91745B40A9D8
-  alterId: 1
+  server: 
+  port: 
+  uuid: 
+  alterId: 
   cipher: auto
   udp: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: play.itunes.apple.com
+    Host: p
 - name: aaronjpn
   type: ssr
-  server: jp8.cdn.globalnetworktraffic.com
-  port: 389
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  protocolparam: 103048:CeBjXh
-  obfs: tls1.2_ticket_auth
-  obfsparam: 6e832103048.www.gov.hk
+  server: 
+  port: 
+  cipher: 
+  password: 
+  protocol: 
+  protocolparam: 
+  obfs: 
+  obfsparam:
 
 Proxy Group:
 -
